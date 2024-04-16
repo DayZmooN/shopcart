@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopcart</title>
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--banner top reduction-->
+    <nav>
+        <div class="layout">
+            <div class="bannier">
+                <img src="./asset/img/call.svg" alt="appelé le 001234567890">
+                <span>+001234567890</span>
+            </div>
+            <div class="reduction__bannier">
+                <span>Get 50% Off on Select Item | Shop Now </span>
+            </div>
+            <div class="lang__bannier">
+                <select name="lang" id="lang">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <!--header-->
+    <header>
+        <div class="layout">
+            <div class="logo">
+                <img src="./asset/img/logo.svg" alt="logo shopcart" class="img__logo">
+            </div>
+            <div class="ul__log">
+                <ul>
+                    <li><a href="#categories">Categories</a> </li>
+                    <!--<select name="numerique" id="numerique__ul__log">
+                        <option class="categorie" value="hide">
+                            Categories
+                        </option>
+                        <option value="numerique">
+                            <a href="http://" rel="noopener noreferrer">numerique</a>
+                        </option>
+                        <option value="numerique">
+                            <a href="http://" rel="noopener noreferrer">jeu</a>
+                        </option>
+                        <option value="numerique">
+                            <a href="*" rel="noopener noreferrer">telephonie</a>
+                        </option>
+                    </select>-->
+                    <li> <a href="http://">What’s New</a></li>
+                    <li><a href="http://">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="seachbar__logo">
+                <input type="search" name="search" id="input__logo" placeholder="Search ....">
+                <button type="submit" class="button__logo">
+                    <img src="./asset/img/search.svg" alt="click to search" class="img__seachbar__logo">
+                </button>
+            </div>
+            <div class="account__cart__logo">
+                <div class="account">
+                    <img src="./asset/img/account.svg" alt="icon user login" class="img__account">
+                    <span class="span__account">Account</span>
+                </div>
+                <div class="cart">
+                    <img src="./asset/img/cart.svg" alt="icon cart" class="img__cart">
+                    <span class="span__cart">Cart</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--hero-->
+    <div class="hero">
+        <div class="layout">
+            <div class="title__hero">
+                <h1 class="h1__title_hero">Grab up to 50% off on selected Headphone</h1>
+                <button class="button__title__hero" type="submit">By Now</button>
+            </div>
+
+            <img class="img__hero" src="./asset/img/banners__shop.svg"
+                alt="hero abnner reduction 50% off on selected HeadPhone" />
+        </div>
+    </div>
+
+    <div class="layout">
+        <div class="filter">
+            <div class="container__filter">
+                <select name="price" id="price" class="item">
+                    <option value="hide"> Price </option>
+                    <option value="prince">20€ - 50€</option>
+                    <option value="prince"> 50€ - 100€</option>
+                    <option value="prince">100€ - 200€</option>
+                </select>
+                <select name="review" id="review" class="item">
+                    <option value="hide"> review </option>
+                    <option value="prince">Normal</option>
+                    <option value="prince"> Good</option>
+                    <option value="prince">Perfect</option>
+                </select>
+                <select name="color" id="color" class="item">
+                    <option value="hide"> color </option>
+                    <option value="prince">black</option>
+                    <option value="prince"> white</option>
+                    <option value="prince">multi-colors</option>
+                </select>
+                <select name="offer" id="offer" class="item">
+                    <option value="hide"> offer </option>
+                    <option value="20€-50€">20€ - 50€</option>
+                    <option value="50€-100€"> 50€ - 100€</option>
+                    <option value="100€-200€">100€ - 200€</option>
+                </select>
+            </div>
+            <select name="shortby" id="shortby" class="item">
+                <option value="hide"> Short By </option>
+                <option value="new">new</option>
+                <option value="popular">popular</option>
+                <option value="date">date</option>
+            </select>
+        </div>
+    </div>
+    <section class="top__product">
+        <h2 class="h2__top__product">Top Products</h2>
+        <div class="container__top__product">
+            <!--card top product-->
+            <div class="card">
+                <div class="img__card">
+                    <a href="./product/index.html">
+                        <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                        <form class="form__heart" action="">
+                    </a>
+                    <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                    <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/casque.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img__card">
+                    <img class="product__img__card" src="./asset/img/Bose BT Earphones.svg" alt="Bose BT Earphones">
+                    <form class="form__heart" action="">
+                        <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                        <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                    </form>
+                </div>
+                <div class="body__card">
+                    <div class="top__card">
+                        <h3 class="h3__top__card">Bose BT Earphones</h3>
+                        <span class="span__top__card"><sup>$</sup>35</span>
+                    </div>
+                    <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                    <div class="footer__body__card">
+                        <form action="
+                        " class="rating__footer__body__card">
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="rateStar(1)"></span>
+                                <span class="fa fa-star" onclick="rateStar(2)"></span>
+                                <span class="fa fa-star" onclick="rateStar(3)"></span>
+                                <span class="fa fa-star" onclick="rateStar(4)"></span>
+                                <span class="fa fa-star" onclick="rateStar(5)"></span>
+
+                            </div>
+                            <div class="number__rating">
+                                <span>(121)</span>
+                            </div>
+
+                        </form>
+                        <form class="btn__footer__body__card">
+                            <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- popular week-->
+        <div class="popular__week">
+            <h2 class="h2__top__product">Popular Products This Week</h2>
+            <!--container popular week-->
+            <div class="container__popular__week">
+                <!--card top product-->
+                <div class="card">
+                    <div class="img__card">
+                        <img class="product__img__card" src="./asset/img/moto.svg" alt="Bose BT Earphones">
+                        <form class="form__heart" action="">
+                            <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                            <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                        </form>
+                    </div>
+                    <div class="body__card">
+                        <div class="top__card">
+                            <h3 class="h3__top__card">Bose BT Earphones</h3>
+                            <span class="span__top__card"><sup>$</sup>35</span>
+                        </div>
+                        <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                        <div class="footer__body__card">
+                            <form action="
+                        " class="rating__footer__body__card">
+                                <input type="radio" name="1" id="">
+                                <input type="radio" name="2" id="">
+                                <input type="radio" name="3" id="">
+                                <input type="radio" name="4" id="">
+                                <input type="radio" name="5" id="">
+                            </form>
+                            <form class="btn__footer__body__card">
+                                <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img__card">
+                        <img class="product__img__card" src="./asset/img/parpluie.svg" alt="Bose BT Earphones">
+                        <form class="form__heart" action="">
+                            <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                            <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                        </form>
+                    </div>
+                    <div class="body__card">
+                        <div class="top__card">
+                            <h3 class="h3__top__card">Bose BT Earphones</h3>
+                            <span class="span__top__card"><sup>$</sup>35</span>
+                        </div>
+                        <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                        <div class="footer__body__card">
+                            <form action="
+                        " class="rating__footer__body__card">
+                                <input type="radio" name="1" id="">
+                                <input type="radio" name="2" id="">
+                                <input type="radio" name="3" id="">
+                                <input type="radio" name="4" id="">
+                                <input type="radio" name="5" id="">
+                            </form>
+                            <form class="btn__footer__body__card">
+                                <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img__card">
+                        <img class="product__img__card" src="./asset/img/parpluie.svg" alt="Bose BT Earphones">
+                        <form class="form__heart" action="">
+                            <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                            <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                        </form>
+                    </div>
+                    <div class="body__card">
+                        <div class="top__card">
+                            <h3 class="h3__top__card">Bose BT Earphones</h3>
+                            <span class="span__top__card"><sup>$</sup>35</span>
+                        </div>
+                        <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                        <div class="footer__body__card">
+                            <form action="
+                        " class="rating__footer__body__card">
+                                <input type="radio" name="1" id="">
+                                <input type="radio" name="2" id="">
+                                <input type="radio" name="3" id="">
+                                <input type="radio" name="4" id="">
+                                <input type="radio" name="5" id="">
+                            </form>
+                            <form class="btn__footer__body__card">
+                                <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img__card">
+                        <img class="product__img__card" src="./asset/img/moto.svg" alt="Bose BT Earphones">
+                        <form class="form__heart" action="">
+                            <img class="heart__form__heart" src="./asset/img/heart.svg" alt="Bose BT Earphones">
+                            <!--<i class="fa-solid fa-heart heart__form__heart "></i>-->
+                        </form>
+                    </div>
+                    <div class="body__card">
+                        <div class="top__card">
+                            <h3 class="h3__top__card">Bose BT Earphones</h3>
+                            <span class="span__top__card"><sup>$</sup>35</span>
+                        </div>
+                        <h4 class="h4__body__card">Table with air purifier, stained venner/black</h4>
+                        <div class="footer__body__card">
+                            <form action="
+                        " class="rating__footer__body__card">
+                                <input type="radio" name="1" id="">
+                                <input type="radio" name="2" id="">
+                                <input type="radio" name="3" id="">
+                                <input type="radio" name="4" id="">
+                                <input type="radio" name="5" id="">
+                            </form>
+                            <form class="btn__footer__body__card">
+                                <button class="button__btn__footer__body__card" type="submit">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Container categories popular -->
+        <div id="categories" class="categories__popular__week">
+            <h2 class="h2__top__product">Popular Categories</h2>
+            <!--container categories popular-->
+            <div class="container__categories__popular__week">
+                <!--card-->
+                <div class="card__container__categories__popular__week">
+                    <img src="./asset/img/categories.svg" alt="sport cars"
+                        class="img__card__container__categories__popular__week">
+                    <div class="body__card__container__categories__popular__week">
+                        <h3 class="h3__body__card__container__categories__popular__week">
+                            Sport Cars
+                        </h3>
+                        <h4 class="h4__body__card__container__categories__popular__week">123 Items for the Category</h4>
+                    </div>
+                </div>
+                <div class="card__container__categories__popular__week">
+                    <img src="./asset/img/categories.svg" alt="sport cars"
+                        class="img__card__container__categories__popular__week">
+                    <div class="body__card__container__categories__popular__week">
+                        <h3 class="h3__body__card__container__categories__popular__week">
+                            Sport Cars
+                        </h3>
+                        <h4 class="h4__body__card__container__categories__popular__week">123 Items for the Category</h4>
+                    </div>
+                </div>
+                <div class="card__container__categories__popular__week">
+                    <img src="./asset/img/chaise.svg" alt="sport cars"
+                        class="img__card__container__categories__popular__week">
+                    <div class="body__card__container__categories__popular__week">
+                        <h3 class="h3__body__card__container__categories__popular__week">
+                            Sport Cars
+                        </h3>
+                        <h4 class="h4__body__card__container__categories__popular__week">123 Items for the Category</h4>
+                    </div>
+                </div>
+                <div class="card__container__categories__popular__week">
+                    <img src="./asset/img/categories.svg" alt="sport cars"
+                        class="img__card__container__categories__popular__week">
+                    <div class="body__card__container__categories__popular__week">
+                        <h3 class="h3__body__card__container__categories__popular__week">
+                            Sport Cars
+                        </h3>
+                        <h4 class="h4__body__card__container__categories__popular__week">123 Items for the Category</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="liste__footer">
+                <div class="box__liste__footer">
+                    <div class="span__box__box__liste__footer">
+                        <span class="span__liste__footer">Quick Links</span>
+                    </div>
+                    <div class="ul__liste__footer">
+
+                        <ul>
+                            <li>Top Products</li>
+                            <li>Popular Products This Week</li>
+                            <li>Popular Categories</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box__liste__footer">
+                    <div class="span__box__box__liste__footer">
+
+                    </div>
+                    <div class="ul__liste__footer">
+
+                        <ul>
+                            <li>Top Products</li>
+                            <li>Popular Products This Week</li>
+                            <li>Popular Categories</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box__liste__footer">
+                    <div class="span__box__box__liste__footer">
+
+                        <span class="span__liste__footer">Quick Links</span>
+                    </div>
+
+                    <div class="ul__liste__footer">
+                        <ul>
+                            <li>Top Products</li>
+                            <li>Popular Products This Week</li>
+                            <li>Popular Categories</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="Reserved__footer">
+            <span class="span__Reserved__footer">&copy; 2023, Shopcart - All right Reserved </span>
+        </div>
+    </footer>
+</body>
+<script>
+    function rateStar(starNumber) {
+        // Récupérer toutes les étoiles
+        var stars = document.querySelectorAll('.rating .fa-star');
+
+        // Parcourir les étoiles
+        for (var i = 0; i < stars.length; i++) {
+            // Si l'indice de l'étoile est inférieur ou égal à starNumber, la cocher, sinon la décocher
+            if (i < starNumber) {
+                stars[i].classList.add('checked');
+            } else {
+                stars[i].classList.remove('checked');
+            }
+        }
+    }
+</script>
+
+</html>

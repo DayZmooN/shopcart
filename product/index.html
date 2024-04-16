@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homePagecv </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="layout">
+            <div class="bannier">
+                <img src="../asset/img/call.svg" alt="appelé le 001234567890">
+                <span>+001234567890</span>
+            </div>
+            <div class="reduction__bannier">
+                <span>Get 50% Off on Select Item | Shop Now </span>
+            </div>
+            <div class="lang__bannier">
+                <select name="lang" id="lang">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <header>
+        <div class="layout">
+            <div class="logo">
+                <img src="../asset/img/logo.svg" alt="logo shopcart" class="img__logo">
+            </div>
+            <div class="ul__log">
+                <ul>
+                    <li><a href="../index.html">Categories</a> </li>
+                    <!--<select name="numerique" id="numerique__ul__log">
+                        <option class="categorie" value="hide">
+                            Categories
+                        </option>
+                        <option value="numerique">
+                            <a href="http://" rel="noopener noreferrer">numerique</a>
+                        </option>
+                        <option value="numerique">
+                            <a href="http://" rel="noopener noreferrer">jeu</a>
+                        </option>
+                        <option value="numerique">
+                            <a href="*" rel="noopener noreferrer">telephonie</a>
+                        </option>
+                    </select>-->
+                    <li> <a href="http://">What’s New</a></li>
+                    <li><a href="http://">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="seachbar__logo">
+                <input type="search" name="search" id="input__logo" placeholder="Search ....">
+                <button type="submit" class="button__logo">
+                    <img src="../asset/img/search.svg" alt="click to search" class="img__seachbar__logo">
+                </button>
+            </div>
+            <div class="account__cart__logo">
+                <div class="account">
+                    <img src="../asset/img/account.svg" alt="icon user login" class="img__account">
+                    <span class="span__account">Account</span>
+                </div>
+                <div class="cart">
+                    <img src="../asset/img/cart.svg" alt="icon cart" class="img__cart">
+                    <span class="span__cart">Cart</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--page product-->
+    <section class="product">
+        <!--file d'arianne -->
+        <div class="breadcrumbs">
+            <a class="a__breadcrumbs" href="/">Electronics/</a>
+            <a class="a__breadcrumbs" href="/categorie1/">Airpods Pro MaxCa</a>
+        </div>
+
+        <div class="container__product">
+            <div class="picture__container__product">
+                <img class="big__picture" src="../asset/img/airpod.svg" alt="Airpods Pro MaxCa">
+                <div class="other__picture__container__product">
+                    <img src="../asset/img/airpodsgreen.svg" alt="Airpods Pro MaxCa green">
+                    <img src="../asset/img/airpodsyellow.svg" alt="Airpods Pro MaxCa yellow">
+                    <img src="../asset/img/airpodblue.svg" alt="Airpods Pro MaxCa blue">
+                    <img src="../asset/img/airpodredandblack.svg" alt="Airpods Pro MaxCa red and black">
+                </div>
+            </div>
+            <div class="right__content__container__product">
+                <h1 class="h1__right__content__container__product">Airpod Pro Max</h1>
+                <h2 class="h2__right__content__container__product">A perfect balance of exhilarating high-fidelity audio
+                    and the effortless
+                    magic of Airpods.</h2>
+                <form action="
+                    " class="rating__footer__body__card">
+                    <div class="rating">
+                        <span class="fa fa-star" onclick="rateStar(1)"></span>
+                        <span class="fa fa-star" onclick="rateStar(2)"></span>
+                        <span class="fa fa-star" onclick="rateStar(3)"></span>
+                        <span class="fa fa-star" onclick="rateStar(4)"></span>
+                        <span class="fa fa-star" onclick="rateStar(5)"></span>
+                    </div>
+
+                </form>
+                <div class="h3__h4">
+                    <h3 class="price__right__content__container__product">$ 590.00</h3>
+                    <h4 class="h4__right__content__container__product">The lowest price you will find</h4>
+                </div>
+                <div class="color__right__content__container__product">
+                    <span class="span__color__right__content__container__product">
+                        Choose color
+                    </span>
+                    <div class="box__color__right__content__container__product">
+                        <img src="../asset/img/boxgreen.svg" alt="chose green">
+                        <img src="../asset/img/boxred.svg" alt="chose red">
+                        <img src="../asset/img/boxyellow.svg" alt="chose yellow">
+                        <img src="../asset/img/boxblue.svg" alt="chose blue">
+                    </div>
+                </div>
+                <div class="buy__add__now__section__right__content__container__product">
+                    <div class="container_buy__add__now__section__right__content__container__product">
+                        <div class="quatity__container_buy__add__now__section__right__content__container__product">
+                            <span class="qt-minus">-</span>
+                            <span class="qt">1</span>
+                            <span class="qt-plus">+</span>
+                        </div>
+                        <h3 class="h3__container_buy__add__now__section__right__content__container__product">Only 12
+                            items left
+                            Don’t miss it</h3>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="buy__now">Buy Now</button>
+                    <button type="submit" class="add__now">Add to Cart</button>
+                </div>
+                <div class="delivery">
+                    <div class="picture__span">
+                        <img src="../asset/img/freedelivery.svg" alt="free delivery">
+                        <div class="span">
+                            <span class="span__title">Free Delivery</span>
+                            <span class="link__span">Enter your delivery address here</span>
+                        </div>
+                    </div>
+
+                    <div class="picture__span">
+                        <img src="../asset/img/returndelivery.svg" alt="">
+
+                        <div class="span">
+                            <p class="span__title">Return Delivery</p>
+                            <div class="detail__link">
+                                <span class="link__span">Free 30 days Delivery Returns. </span>
+                                <span class="detail__span__a"><a href="">Details</a> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="liste__footer">
+                <div class="box__liste__footer">
+                    <div class="span__box__box__liste__footer">
+                        <span class="span__liste__footer">Quick Links</span>
+                    </div>
+                    <div class="ul__liste__footer">
+
+                        <ul>
+                            <li>Top Products</li>
+                            <li>Popular Products This Week</li>
+                            <li>Popular Categories</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box__liste__footer">
+                    <div class="span__box__box__liste__footer">
+
+                    </div>
+                    <div class="ul__liste__footer">
+
+                        <ul>
+                            <li>Top Products</li>
+                            <li>Popular Products This Week</li>
+                            <li>Popular Categories</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box__liste__footer">
+                    <div class="span__box__box__liste__footer">
+
+                        <span class="span__liste__footer">Quick Links</span>
+                    </div>
+
+                    <div class="ul__liste__footer">
+                        <ul>
+                            <li>Top Products</li>
+                            <li>Popular Products This Week</li>
+                            <li>Popular Categories</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="Reserved__footer">
+            <span class="span__Reserved__footer">&copy; 2023, Shopcart - All right Reserved </span>
+        </div>
+    </footer>
+</body>
+<script>
+    function rateStar(starNumber) {
+        // Récupérer toutes les étoiles
+        var stars = document.querySelectorAll('.rating .fa-star');
+
+        // Parcourir les étoiles
+        for (var i = 0; i < stars.length; i++) {
+            // Si l'indice de l'étoile est inférieur ou égal à starNumber, la cocher, sinon la décocher
+            if (i < starNumber) {
+                stars[i].classList.add('checked');
+            } else {
+                stars[i].classList.remove('checked');
+            }
+        }
+    }
+</script>
+
+</html>
